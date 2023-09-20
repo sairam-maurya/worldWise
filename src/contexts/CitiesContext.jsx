@@ -6,7 +6,7 @@ import {
   useReducer,
 } from "react";
 
-const BASE_URL = "https://rest-api-world-wise.vercel.app/";
+const BASE_URL = "https://rest-api-world-wise.vercel.app";
 
 const CitiesContext = createContext();
 
