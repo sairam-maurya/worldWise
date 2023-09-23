@@ -22,7 +22,7 @@ function CityItem({ city }) {
       <Link className={`${styles.cityItem} ${id===currentCity.id?styles["cityItem--active"]:""}`} to={`${id}?lat=${position.lat}&lng=${position.lng}`}>
         <span className={styles.emoji}>{emoji}</span>
         <h3 className={styles.name}>{cityName}</h3>
-        <time className={styles.name}>{formatDate(date)}</time>
+        <time className={styles.date}>{formatDate(date)}</time>
         <button className={styles.deleteBtn} onClick={handelClick}>&times;</button>
       </Link>
     </li>
